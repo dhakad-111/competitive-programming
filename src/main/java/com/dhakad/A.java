@@ -13,7 +13,7 @@ public class A extends CPTemplate{
 
     @AllArgsConstructor
     @Getter
-    @Setter
+    //@Setter
     public static class Edges implements Serializable {
         private int destination;
         private int weight;
